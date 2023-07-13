@@ -6,7 +6,7 @@ authors = ["jonasbechthold <jonas.bechthold@datadrivers.de>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.10.4"
+python = "^3.10.4"
 chromadb = "^0.3.26"
 langchain = "^0.0.225"
 sentence-transformers = "^2.2.2"
@@ -14,7 +14,6 @@ tiktoken = "^0.4.0"
 accelerate = "^0.20.3"
 bitsandbytes = "^0.39.1"
 protobuf = "3.20.0"
-gpt4all = "^1.0.3"
 
 [tool.poetry.scripts]
 protobuf-python-implementation = "export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python"
